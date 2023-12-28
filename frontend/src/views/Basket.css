@@ -1,0 +1,5 @@
+.Basket {
+    width: 100%;
+    height: calc(100vh - 50px - 50px);
+    background-color: #fff;
+}

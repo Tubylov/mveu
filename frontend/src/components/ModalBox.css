@@ -1,0 +1,46 @@
+.ModalBox {
+    width: 400px;
+    height: auto;
+    min-height: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 200px);
+    padding: 10px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ModalBox h1 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.ModalBox input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.ModalBox button {
+    width: 40%;
+    height: 30px;
+    background-color: #aad7ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ModalBox button:hover {
+    background-color: #6ebcff;
+}
+.echo {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #747474;
+    opacity: .3;
+}
